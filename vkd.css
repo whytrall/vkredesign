@@ -1,0 +1,247 @@
+/* rounded images: avatars, etc */
+
+.mail_box_single_ava .mail_box_single_ava_img, .friends_photo_img, .ui_zoom_inner, .post_img, .people_cell_img, .cell_img, .page_list_module .thumb, img.fc_contact_photo, .fans_idolph_wrap, .group_row_photo, .group_row_img, .right_list_img, .ow_ava, .top_notify_cont .feedback_img, .feedback_sticky_icon, .feedback_group_photo_img, .feedback_img, .fans_fan_img, .nim-peer .nim-peer--photo-w, .wall_module .reply_img, .feed_friend_image, .top_profile_img, .copy_post_img, .like_tt_image, .poll_tt_image, .mv_author_img, .olist_item_photo, .chat_tab_img, .mention_tt_img, .profile_career_img, .mention_tt_person_img, .page_group_image, .blog_about_link_pic, img.im_chatbox_mem_photo, .im-member-item .im-member-item--photo, .chat_tab_counter, .chat_tab_close, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread, .ui_ownblock_img, .bp_img, .dev_top_profile_link img, .group_box_image_wrap, .group_box_image_link, .wk_poll_usr, .ui_rmenu_count, .blst_img, .feedback_sticky_img, a.fc_msgs_img, .tickets_image__i, .page_gif_play_icon, .page_gif_progress_icon, .search_item_img {
+    border-radius: 4px!important;
+}
+
+
+/* normal font. sf will be used on mac*/
+
+body, .fakeinput, div[contenteditable=true], input.big_text, input.file, input.search, input.text, input[type=button], input[type=password], input[type=search], input[type=submit], input[type=text], input[type~=email], input[type~=password], input[type~=search], input[type~=text], textarea, .button_blue button, .button_gray button, .button_light_gray button, .flat_button, .im-page .im-page--members, .im-page .im-page--peer-online, .im-page-btn, .im-fwd .im-fwd--messages {
+    font-family: BlinkMacSystemFont, tahoma;
+    letter-spacing: normal;
+}
+
+
+/* hide some shit */
+
+#ads_left, .left_settings, .mv_subscribe_block {
+    display: none;
+}
+
+
+/* public, contact info description in left/right side of the page*/
+
+.page_list_module .group_desc, .page_list_module .people_desc, .page_list_module .people_extra {
+    font-size: 11px;
+}
+
+
+/* block shadow */
+
+.dev_page_block, .page_block {
+    box-shadow: 0 1px 2px rgba(6, 33, 63, 0.13);
+}
+
+/* online icon */
+.online:after {
+    bottom: 6%;
+    right: 3%;
+}
+
+
+/* popup and friend chat header */
+
+.box_title_wrap, .fc_tab_head {
+    background: #597BA5;
+}
+
+
+/* search, friends icons */
+
+.layers_shown .chat_onl:after, .chat_onl:after, .chats_sp.fc_clist_search_icon {
+    background-image: url(https://i.imgur.com/C9KExBy.png);
+    background-repeat: no-repeat;
+    width: 12px;
+}
+
+
+/* friends icon in usual state */
+
+.chat_onl:after {
+    background-position: -39px -45px;
+}
+
+
+/* friends icon when popup opened */
+
+.layers_shown .chat_onl:after {
+    background-position: -52px -45px;
+    opacity: 0.5;
+    width: 11px;
+}
+
+
+/* search icon */
+
+.chats_sp.fc_clist_search_icon {
+    background-position: -98px 0px;
+}
+
+
+/* friends chat top title */
+
+.fc_tab_title {
+    padding: 4px 3px;
+    font-size: 11px;
+}
+
+
+/* friends chat top icons */
+
+.fc_tab_close_wrap, .fc_tab_max_wrap, .fc_tab_pin_wrap {
+    margin-top: 8px;
+}
+
+
+/* peer name in friends chat */
+
+.fc_contact_name {
+    font-size: 11px;
+}
+
+
+/* bigger photos in friends chat */
+
+img.fc_contact_photo, span.fc_contact_photo {
+    width: 38px;
+    height: 38px;
+}
+
+
+/* online indicator in friends chat */
+
+span.fc_contact_photo:after {
+    right: -1px;
+    bottom: -1px;
+}
+
+
+/* make buttons great again! */
+
+.button_small.flat_button {
+    line-height: 13px;
+}
+
+
+/* popup title */
+
+.box_title {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* left menu plus */
+
+span.inl_bl.left_count:before {
+    content: '+';
+}
+
+
+/* make top logo great again! */
+
+.top_home_link .top_home_logo {
+    background: url(https://i.imgur.com/GpEQprj.png) no-repeat;
+    background-position: 0;
+}
+
+
+/* small and cool play buttons */
+
+.audio_play {
+    border-radius: 3px;
+    width: 22px;
+    height: 22px;
+    background: #577ca1 url(/images/icons/audio_playpause.png) no-repeat 7px 6px;
+}
+
+
+/* pause button */
+
+.audio_play.playing, .audio_row_playing .audio_play {
+    background-position: 7px -16px;
+}
+
+
+/* Fixes the position of track name and lyrics link */
+
+.audio_row .audio_info {
+    padding-top: 4px;
+}
+
+
+/* tooltip in lang select */
+
+.lang_box_row_label, .lang_column, .tt_w {
+    font-size: 11px;
+}
+
+
+/* header bg */
+
+#page_header_cont .back, #dev_top_nav_wrap {
+    background: linear-gradient(to bottom, #5D81A7 0%, #4C6C92 100%);
+}
+
+
+/* search input bg */
+
+input.text.ts_input, body.dev input.dev_top_input {
+    background-color: #49688C
+}
+
+
+/* header items hover */
+
+.dev_home_link:hover, .dev_top_link:hover, .top_audio_player:hover, .top_nav_link:hover {
+    background-color: rgb(78, 110, 148);
+}
+
+
+/* left for profile header photo */
+
+.top_profile_img {
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* fix for profile name */
+
+.top_profile_name {
+    padding-right: 2px;
+}
+
+
+/* move arrow a little bit */
+
+.top_profile_arrow {
+    margin: 23px 8px 0 7px;
+}
+
+
+/* color for away header */
+
+.away_content h2 {
+    color: #45668E;
+}
+
+
+/**************** FIXES AND OTHER STUFF ****************/
+
+
+/* TAHOMA ONLY. move top song title a little bit */
+
+.top_audio_player .top_audio_player_title {
+    line-height: 12px;
+}
+
+
+/*.footer_copy.fl_l:after {
+    content: 'Павел Дуров';
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    margin-top: 5px;
+}*/
