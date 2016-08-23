@@ -4,6 +4,30 @@
     border-radius: 4px!important;
 }
 
+/* i luv old checkboxes <3 */
+.checkbox:before {
+    background: url(https://vk.com/images/icons/check.gif) 0 0 no-repeat;
+    height: 14px;
+}
+
+.checkbox:hover:before {
+    background-position: 0 -28px;
+}
+
+.checkbox.on:before {
+    background-position: 0 -14px;
+}
+
+.checkbox.on:hover:before {
+    background-position: 0 -42px;
+}
+
+/* header text shadow */
+
+.top_audio_player, .top_profile_name {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.39);
+}
+
 /* new public page advices */
 
 .public_help_steps_module .public_help_step_image{
@@ -145,7 +169,7 @@ span.inl_bl.left_count:before {
     border-radius: 3px;
     width: 22px;
     height: 22px;
-    background: #577ca1 url(/images/icons/audio_playpause.png) no-repeat 7px 6px;
+    background: #577ca1 url(https://vk.com/images/icons/audio_playpause.png) no-repeat 7px 6px;
 }
 
 
@@ -174,6 +198,8 @@ span.inl_bl.left_count:before {
 
 #page_header_cont .back, #dev_top_nav_wrap {
     background: linear-gradient(to bottom, #5D81A7 0%, #4C6C92 100%);
+    box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.18);
+    border-bottom: 1px solid #456184;
 }
 
 
@@ -238,7 +264,7 @@ input.text.ts_input, body.dev input.dev_top_input {
 }
 
 .video_item .video_item_thumb_wrap {
-    background-image: url(/images/video_uploading_placeholder.png);
+    background-image: url(https://vk.com/images/video_uploading_placeholder.png);
 }
 
 #side_bar {
