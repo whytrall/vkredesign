@@ -1,6 +1,6 @@
 /* rounded images: avatars, etc */
 
-.mail_box_single_ava .mail_box_single_ava_img, .friends_photo_img, .ui_zoom_inner, .post_img, .people_cell_img, .cell_img, .page_list_module .thumb, img.fc_contact_photo, .fans_idolph_wrap, .group_row_photo, .group_row_img, .right_list_img, .ow_ava, .top_notify_cont .feedback_img, .feedback_sticky_icon, .feedback_group_photo_img, .feedback_img, .fans_fan_img, .nim-peer .nim-peer--photo-w, .wall_module .reply_img, .feed_friend_image, .top_profile_img, .copy_post_img, .like_tt_image, .poll_tt_image, .mv_author_img, .olist_item_photo, .chat_tab_img, .mention_tt_img, .profile_career_img, .mention_tt_person_img, .page_group_image, .blog_about_link_pic, img.im_chatbox_mem_photo, .im-member-item .im-member-item--photo, .chat_tab_counter, .chat_tab_close, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread, .ui_ownblock_img, .bp_img, .dev_top_profile_link img, .group_box_image_wrap, .group_box_image_link, .wk_poll_usr, .ui_rmenu_count, .blst_img, .feedback_sticky_img, a.fc_msgs_img, .tickets_image__i, .page_gif_play_icon, .page_gif_progress_icon, .search_item_img, .audio_page_player .audio_page_player_play .icon, .fans_fan_bl_wrap, .fans_fan_bl, .public_help_steps_module .public_help_step_image {
+.mail_box_single_ava .mail_box_single_ava_img, .friends_photo_img, .ui_zoom_inner, .post_img, .people_cell_img, .cell_img, .page_list_module .thumb, img.fc_contact_photo, .fans_idolph_wrap, .group_row_photo, .group_row_img, .right_list_img, .ow_ava, .top_notify_cont .feedback_img, .feedback_sticky_icon, .feedback_group_photo_img, .feedback_img, .fans_fan_img, .nim-peer .nim-peer--photo-w, .wall_module .reply_img, .feed_friend_image, .top_profile_img, .copy_post_img, .like_tt_image, .poll_tt_image, .mv_author_img, .olist_item_photo, .chat_tab_img, .mention_tt_img, .profile_career_img, .mention_tt_person_img, .page_group_image, .blog_about_link_pic, img.im_chatbox_mem_photo, .im-member-item .im-member-item--photo, .chat_tab_counter, .chat_tab_close, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread, .ui_ownblock_img, .bp_img, .dev_top_profile_link img, .group_box_image_wrap, .group_box_image_link, .wk_poll_usr, .ui_rmenu_count, .blst_img, .feedback_sticky_img, a.fc_msgs_img, .tickets_image__i, .page_gif_play_icon, .page_gif_progress_icon, .search_item_img, .audio_page_player .audio_page_player_play .icon, .fans_fan_bl_wrap, .fans_fan_bl, .public_help_steps_module .public_help_step_image, .post_field_user_image, .nim-peer .nim-peer--photo .im_grid > img, .nim-peer .nim-peer--photo > img  {
     border-radius: 4px!important;
 }
 
@@ -210,7 +210,7 @@ input.text.ts_input, body.dev input.dev_top_input {
 /* move arrow a little bit */
 
 .top_profile_arrow {
-    margin: 23px 8px 0 7px;
+    margin: 20px 8px 0 6px;
 }
 
 
@@ -243,4 +243,44 @@ input.text.ts_input, body.dev input.dev_top_input {
 
 #side_bar {
     text-shadow: 0 1px 0 #ffffff;
+}
+
+/* EMOJIS */
+.emoji_block_rel {
+    top: 36px;
+}
+
+.emoji_tabs {
+    background: linear-gradient(to bottom, #ffffff, #f3f3f3);
+    top: 0;
+    border-radius: 4px 4px 0 0;
+    position: absolute;
+    width: 100%;
+}
+
+.emoji_tabs_l_s, .emoji_tabs_r_s {
+    background: linear-gradient(to bottom, #ffffff, #f3f3f3);
+}
+
+.emoji_tab_sel, .emoji_tab_sel:hover, .emoji_tab:hover {
+    background: #838790;
+    box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.35);
+        -webkit-filter: grayscale(85%);
+}
+
+.emoji_tab:hover .emoji_tab_img, .emoji_tab_sel .emoji_tab_img {
+    -webkit-filter: grayscale(85%);
+}
+
+.emoji_tab_sel .emoji_tab_icon_0, .emoji_tab_sel .emoji_tab_icon_recent,
+.emoji_tab.emoji_tab:hover .emoji_tab_icon_0, .emoji_tab.emoji_tab:hover .emoji_tab_icon_recent{
+        -webkit-filter: brightness(400%);
+}
+
+.emoji_tabs_l_sc, .emoji_tabs_r_sc {
+    background: none;
+}
+
+.emoji_block_cont {
+    position: relative;
 }
