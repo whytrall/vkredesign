@@ -30,9 +30,10 @@
 
 /* header selected */
 .top_nav_btn.active, .top_nav_link.active {
-    background-color: #43648c;
-    background: linear-gradient(to bottom, #4C6C92 0%, #5D81A7 100%);
-    box-shadow: inset 0 4px 14px rgba(0, 0, 0, 0.35);
+    /*background-color: #43648c;
+    background: linear-gradient(to bottom, #4C6C92 0%, #5D81A7 100%);*/
+      box-shadow: inset 0 4px 23px -2px rgba(0, 0, 0, 0.38);
+        background: transparent;
 }
 
 /* new public page advices */
@@ -215,6 +216,14 @@ span.inl_bl.left_count:before {
 input.text.ts_input, body.dev input.dev_top_input {
     background-color: #49688C;
     box-shadow: inset 0 1px 2px rgba(0,0,0,.1) , 0 1px 0 rgba(255, 255, 255, 0.1);
+    
+    border-left: 0;
+    background-position: 8px 8px;
+        padding: 10px 6px 10px 28px;
+}
+
+.input_back_wrap {
+    top: -4px;
 }
 
 
@@ -255,7 +264,7 @@ input.text.ts_input, body.dev input.dev_top_input {
 
 /* New stuff 8/23 */
 .top_nav_btn .top_nav_btn_icon, .top_audio_player .top_audio_player_btn .top_audio_player_btn_icon, .top_home_link .top_home_logo, .dev_home_link:before {
-    background-image: url(https://i.imgur.com/GOGnQey.png);
+    background-image: url(https://i.imgur.com/Bq60Psi.png);
 }
 
 .top_home_link .top_home_logo, .dev_home_link:before {
@@ -276,6 +285,22 @@ input.text.ts_input, body.dev input.dev_top_input {
 
 #side_bar {
     text-shadow: 0 1px 0 #ffffff;
+}
+
+.blog_about_link_pic {
+        background: linear-gradient(to bottom, #5c80a6 0%, #4d6d93 100%);
+}
+
+.blog_about_link_pic_other {
+        background: linear-gradient(to bottom, rgb(228, 234, 241) 0%, rgb(208, 217, 224) 100%);
+}
+
+.left_menu_nav_wrap:after {
+    content: 'you\'re using a style by trall1488';
+    display: block;
+    color: #939699;
+    opacity: 0.5;
+    margin-top: 20px;
 }
 
 /* EMOJIS */
@@ -317,3 +342,4 @@ input.text.ts_input, body.dev input.dev_top_input {
 .emoji_block_cont {
     position: relative;
 }
+
