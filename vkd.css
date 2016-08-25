@@ -1,10 +1,12 @@
 /* rounded images: avatars, etc */
 
-.mail_box_single_ava .mail_box_single_ava_img, .friends_photo_img, .ui_zoom_inner, .post_img, .people_cell_img, .cell_img, .page_list_module .thumb, img.fc_contact_photo, .fans_idolph_wrap, .group_row_photo, .group_row_img, .right_list_img, .ow_ava, .top_notify_cont .feedback_img, .feedback_sticky_icon, .feedback_group_photo_img, .feedback_img, .fans_fan_img, .nim-peer .nim-peer--photo-w, .wall_module .reply_img, .feed_friend_image, .top_profile_img, .copy_post_img, .like_tt_image, .poll_tt_image, .mv_author_img, .olist_item_photo, .chat_tab_img, .mention_tt_img, .profile_career_img, .mention_tt_person_img, .page_group_image, .blog_about_link_pic, img.im_chatbox_mem_photo, .im-member-item .im-member-item--photo, .chat_tab_counter, .chat_tab_close, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread, .ui_ownblock_img, .bp_img, .dev_top_profile_link img, .group_box_image_wrap, .group_box_image_link, .wk_poll_usr, .ui_rmenu_count, .blst_img, .feedback_sticky_img, a.fc_msgs_img, .tickets_image__i, .page_gif_play_icon, .page_gif_progress_icon, .search_item_img, .audio_page_player .audio_page_player_play .icon, .fans_fan_bl_wrap, .fans_fan_bl, .public_help_steps_module .public_help_step_image, .post_field_user_image, .nim-peer .nim-peer--photo .im_grid > img, .nim-peer .nim-peer--photo > img  {
+.mail_box_single_ava .mail_box_single_ava_img, .friends_photo_img, .ui_zoom_inner, .post_img, .people_cell_img, .cell_img, .page_list_module .thumb, img.fc_contact_photo, .fans_idolph_wrap, .group_row_photo, .group_row_img, .right_list_img, .ow_ava, .top_notify_cont .feedback_img, .feedback_sticky_icon, .feedback_group_photo_img, .feedback_img, .fans_fan_img, .nim-peer .nim-peer--photo-w, .wall_module .reply_img, .feed_friend_image, .top_profile_img, .copy_post_img, .like_tt_image, .poll_tt_image, .mv_author_img, .olist_item_photo, .chat_tab_img, .mention_tt_img, .profile_career_img, .mention_tt_person_img, .page_group_image, .blog_about_link_pic, img.im_chatbox_mem_photo, .im-member-item .im-member-item--photo, .chat_tab_counter, .chat_tab_close, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread, .ui_ownblock_img, .bp_img, .dev_top_profile_link img, .group_box_image_wrap, .group_box_image_link, .wk_poll_usr, .ui_rmenu_count, .blst_img, .feedback_sticky_img, a.fc_msgs_img, .tickets_image__i, .page_gif_play_icon, .page_gif_progress_icon, .search_item_img, .audio_page_player .audio_page_player_play .icon, .fans_fan_bl_wrap, .fans_fan_bl, .public_help_steps_module .public_help_step_image, .post_field_user_image, .nim-peer .nim-peer--photo .im_grid > img, .nim-peer .nim-peer--photo > img {
     border-radius: 4px!important;
 }
 
+
 /* i luv old checkboxes <3 */
+
 .checkbox:before {
     background: url(https://vk.com/images/icons/check.gif) 0 0 no-repeat;
     height: 14px;
@@ -22,27 +24,33 @@
     background-position: 0 -42px;
 }
 
+
 /* header text shadow */
 
 .top_audio_player, .top_profile_name {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.39);
 }
 
+
 /* header selected */
+
 .top_nav_btn.active, .top_nav_link.active {
     /*background-color: #43648c;
     background: linear-gradient(to bottom, #4C6C92 0%, #5D81A7 100%);*/
-      box-shadow: inset 0 4px 23px -2px rgba(0, 0, 0, 0.38);
-        background: transparent;
+    box-shadow: inset 0 4px 23px -2px rgba(0, 0, 0, 0.38);
+    background: transparent;
 }
+
 
 /* new public page advices */
 
-.public_help_steps_module .public_help_step_image{
+.public_help_steps_module .public_help_step_image {
     background-color: #ECF1F5;
 }
 
+
 /* SF specific */
+
 .box_title {
     font-weight: 500!important;
 }
@@ -215,11 +223,10 @@ span.inl_bl.left_count:before {
 
 input.text.ts_input, body.dev input.dev_top_input {
     background-color: #49688C;
-    box-shadow: inset 0 1px 2px rgba(0,0,0,.1) , 0 1px 0 rgba(255, 255, 255, 0.1);
-    
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1), 0 1px 0 rgba(255, 255, 255, 0.1);
     border-left: 0;
     background-position: 8px 8px;
-        padding: 10px 6px 10px 28px;
+    padding: 10px 6px 10px 28px;
 }
 
 .input_back_wrap {
@@ -262,13 +269,15 @@ input.text.ts_input, body.dev input.dev_top_input {
     color: #45668E;
 }
 
+
 /* New stuff 8/23 */
+
 .top_nav_btn .top_nav_btn_icon, .top_audio_player .top_audio_player_btn .top_audio_player_btn_icon, .top_home_link .top_home_logo, .dev_home_link:before {
     background-image: url(https://i.imgur.com/Bq60Psi.png);
 }
 
 .top_home_link .top_home_logo, .dev_home_link:before {
-        background-position: 0 0;
+    background-position: 0 0;
 }
 
 #side_bar .left_icon {
@@ -288,11 +297,11 @@ input.text.ts_input, body.dev input.dev_top_input {
 }
 
 .blog_about_link_pic {
-        background: linear-gradient(to bottom, #5c80a6 0%, #4d6d93 100%);
+    background: linear-gradient(to bottom, #5c80a6 0%, #4d6d93 100%);
 }
 
 .blog_about_link_pic_other {
-        background: linear-gradient(to bottom, rgb(228, 234, 241) 0%, rgb(208, 217, 224) 100%);
+    background: linear-gradient(to bottom, rgb(228, 234, 241) 0%, rgb(208, 217, 224) 100%);
 }
 
 .left_menu_nav_wrap:after {
@@ -303,7 +312,9 @@ input.text.ts_input, body.dev input.dev_top_input {
     margin-top: 20px;
 }
 
+
 /* EMOJIS */
+
 .emoji_block_rel {
     top: 36px;
 }
@@ -323,16 +334,15 @@ input.text.ts_input, body.dev input.dev_top_input {
 .emoji_tab_sel, .emoji_tab_sel:hover, .emoji_tab:hover {
     background: #838790;
     box-shadow: inset 0 0 7px rgba(0, 0, 0, 0.35);
-        -webkit-filter: grayscale(85%);
+    -webkit-filter: grayscale(85%);
 }
 
 .emoji_tab:hover .emoji_tab_img, .emoji_tab_sel .emoji_tab_img {
     -webkit-filter: grayscale(85%);
 }
 
-.emoji_tab_sel .emoji_tab_icon_0, .emoji_tab_sel .emoji_tab_icon_recent,
-.emoji_tab.emoji_tab:hover .emoji_tab_icon_0, .emoji_tab.emoji_tab:hover .emoji_tab_icon_recent{
-        -webkit-filter: brightness(400%);
+.emoji_tab_sel .emoji_tab_icon_0, .emoji_tab_sel .emoji_tab_icon_recent, .emoji_tab.emoji_tab:hover .emoji_tab_icon_0, .emoji_tab.emoji_tab:hover .emoji_tab_icon_recent {
+    -webkit-filter: brightness(400%);
 }
 
 .emoji_tabs_l_sc, .emoji_tabs_r_sc {
@@ -342,4 +352,3 @@ input.text.ts_input, body.dev input.dev_top_input {
 .emoji_block_cont {
     position: relative;
 }
-
