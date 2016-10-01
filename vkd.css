@@ -3,8 +3,6 @@
 .mail_box_single_ava .mail_box_single_ava_img, .friends_photo_img, .ui_zoom_inner, .post_img, .people_cell_img, .cell_img, .page_list_module .thumb, img.fc_contact_photo, .fans_idolph_wrap, .group_row_photo, .group_row_img, .right_list_img, .ow_ava, .top_notify_cont .feedback_img, .feedback_sticky_icon, .feedback_group_photo_img, .feedback_img, .fans_fan_img, .nim-peer .nim-peer--photo-w, .wall_module .reply_img, .feed_friend_image, .top_profile_img, .copy_post_img, .like_tt_image, .poll_tt_image, .mv_author_img, .olist_item_photo, .chat_tab_img, .mention_tt_img, .profile_career_img, .mention_tt_person_img, .page_group_image, .blog_about_link_pic, img.im_chatbox_mem_photo, .im-member-item .im-member-item--photo, .chat_tab_counter, .chat_tab_close, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread, .ui_ownblock_img, .bp_img, .dev_top_profile_link img, .group_box_image_wrap, .group_box_image_link, .wk_poll_usr, .ui_rmenu_count, .blst_img, .feedback_sticky_img, a.fc_msgs_img, .tickets_image__i, .page_gif_play_icon, .page_gif_progress_icon, .search_item_img, .audio_page_player .audio_page_player_play .icon, .fans_fan_bl_wrap, .fans_fan_bl, .public_help_steps_module .public_help_step_image, .post_field_user_image, .nim-peer .nim-peer--photo .im_grid > img, .nim-peer .nim-peer--photo > img {
     border-radius: 4px!important;
 }
-
-
 /* i luv old checkboxes <3 */
 
 .checkbox:before {
@@ -23,67 +21,50 @@
 .checkbox.on:hover:before {
     background-position: 0 -42px;
 }
-
-
 /* header text shadow */
 
 .top_audio_player, .top_profile_name {
     text-shadow: 0 1px 0 rgba(0, 0, 0, 0.39);
 }
-
-
 /* header selected */
 
 .top_nav_btn.active, .top_nav_link.active {
     /*background-color: #43648c;
     background: linear-gradient(to bottom, #4C6C92 0%, #5D81A7 100%);*/
+    
     box-shadow: inset 0 4px 23px -2px rgba(0, 0, 0, 0.38);
     background: transparent;
 }
-
-
 /* new public page advices */
 
 .public_help_steps_module .public_help_step_image {
     background-color: #ECF1F5;
 }
-
-
 /* SF specific */
 
 .box_title {
     font-weight: 500!important;
 }
-
-
 /* hide some shit */
 
 #ads_left, .left_settings, .mv_subscribe_block {
     display: none;
 }
-
-
 /* public, contact info description in left/right side of the page*/
 
 .page_list_module .group_desc, .page_list_module .people_desc, .page_list_module .people_extra {
     font-size: 11px;
 }
-
-
 /* block shadow */
 
 .dev_page_block, .page_block {
     box-shadow: 0 1px 2px rgba(6, 33, 63, 0.13);
 }
-
-
 /* popup and friend chat header */
 
 .box_title_wrap, .fc_tab_head {
     background: #597BA5;
 }
-
-
 /* search, friends icons */
 
 .layers_shown .chat_onl:after, .chat_onl:after, .chats_sp.fc_clist_search_icon {
@@ -91,15 +72,11 @@
     background-repeat: no-repeat;
     width: 12px;
 }
-
-
 /* friends icon in usual state */
 
 .chat_onl:after {
     background-position: -39px -45px;
 }
-
-
 /* friends icon when popup opened */
 
 .layers_shown .chat_onl:after {
@@ -107,78 +84,56 @@
     opacity: 0.5;
     width: 11px;
 }
-
-
 /* search icon */
 
 .chats_sp.fc_clist_search_icon {
     background-position: -98px 0px;
 }
-
-
 /* friends chat top title */
 
 .fc_tab_title {
     padding: 4px 3px;
     font-size: 11px;
 }
-
-
 /* friends chat top icons */
 
 .fc_tab_close_wrap, .fc_tab_max_wrap, .fc_tab_pin_wrap {
     margin-top: 8px;
 }
-
-
 /* peer name in friends chat */
 
 .fc_contact_name {
     font-size: 11px;
 }
-
-
 /* bigger photos in friends chat */
 
 img.fc_contact_photo, span.fc_contact_photo {
     width: 38px;
     height: 38px;
 }
-
-
 /* online indicator in friends chat */
 
 span.fc_contact_photo:after {
     right: -1px;
     bottom: -1px;
 }
-
-
 /* make buttons great again! */
 
 .button_small.flat_button {
     line-height: 13px;
 }
-
-
 /* popup title */
 
 .box_title {
     font-size: 13px;
     font-weight: bold;
 }
-
-
 /* left menu plus */
 
 span.inl_bl.left_count:before {
     content: '+';
 }
-
-
 /* make top logo great again! */
-
-
 /* small and cool play buttons */
 
 .audio_play {
@@ -187,29 +142,21 @@ span.inl_bl.left_count:before {
     height: 22px;
     background: #577ca1 url(https://vk.com/images/icons/audio_playpause.png) no-repeat 7px 6px;
 }
-
-
 /* pause button */
 
 .audio_play.playing, .audio_row_playing .audio_play {
     background-position: 7px -16px;
 }
-
-
 /* Fixes the position of track name and lyrics link */
 
 .audio_row .audio_info {
     padding-top: 4px;
 }
-
-
 /* tooltip in lang select */
 
 .lang_box_row_label, .lang_column, .tt_w {
     font-size: 11px;
 }
-
-
 /* header bg */
 
 #page_header_cont .back, #dev_top_nav_wrap {
@@ -217,8 +164,6 @@ span.inl_bl.left_count:before {
     box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.18);
     border-bottom: 1px solid #456184;
 }
-
-
 /* search input in the header */
 
 input.text.ts_input, body.dev input.dev_top_input {
@@ -232,44 +177,32 @@ input.text.ts_input, body.dev input.dev_top_input {
 .input_back_wrap {
     top: -4px;
 }
-
-
 /* header items hover */
 
 .dev_home_link:hover, .dev_top_link:hover, .top_audio_player:hover, .top_nav_link:hover {
     background-color: rgb(78, 110, 148);
 }
-
-
 /* left for profile header photo */
 
 .top_profile_img {
     float: left;
     margin-right: 10px;
 }
-
-
 /* fix for profile name */
 
 .top_profile_name {
     padding-right: 2px;
 }
-
-
 /* move arrow a little bit */
 
 .top_profile_arrow {
     margin: 20px 8px 0 6px;
 }
-
-
 /* color for away header */
 
 .away_content h2 {
     color: #45668E;
 }
-
-
 /* New stuff 8/23 */
 
 .top_nav_btn .top_nav_btn_icon, .top_audio_player .top_audio_player_btn .top_audio_player_btn_icon, .top_home_link .top_home_logo, .dev_home_link:before {
@@ -281,7 +214,8 @@ input.text.ts_input, body.dev input.dev_top_input {
 }
 
 #side_bar .left_icon {
-    background: url(https://i.imgur.com/Gero8y0.png) no-repeat 7px -441px;
+    background: url(https://i.imgur.com/58bQxow.png) no-repeat 7px -441px;
+    opacity: 0.55;
 }
 
 #side_bar .more_div, #ads_left.ads_left_empty+.left_menu_nav_wrap {
@@ -311,8 +245,6 @@ input.text.ts_input, body.dev input.dev_top_input {
     opacity: 0.5;
     margin-top: 20px;
 }
-
-
 /* EMOJIS */
 
 .emoji_block_rel {
