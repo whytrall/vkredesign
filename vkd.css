@@ -1,7 +1,15 @@
 /* rounded images: avatars, etc */
 
-.mail_box_single_ava .mail_box_single_ava_img, .friends_photo_img, .ui_zoom_inner, .post_img, .people_cell_img, .cell_img, .page_list_module .thumb, img.fc_contact_photo, .fans_idolph_wrap, .group_row_photo, .group_row_img, .right_list_img, .ow_ava, .top_notify_cont .feedback_img, .feedback_sticky_icon, .feedback_group_photo_img, .feedback_img, .fans_fan_img, .nim-peer .nim-peer--photo-w, .wall_module .reply_img, .feed_friend_image, .top_profile_img, .copy_post_img, .like_tt_image, .poll_tt_image, .mv_author_img, .olist_item_photo, .chat_tab_img, .mention_tt_img, .profile_career_img, .mention_tt_person_img, .page_group_image, .blog_about_link_pic, img.im_chatbox_mem_photo, .im-member-item .im-member-item--photo, .chat_tab_counter, .chat_tab_close, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread, .ui_ownblock_img, .bp_img, .dev_top_profile_link img, .group_box_image_wrap, .group_box_image_link, .wk_poll_usr, .ui_rmenu_count, .blst_img, .feedback_sticky_img, a.fc_msgs_img, .tickets_image__i, .page_gif_play_icon, .page_gif_progress_icon, .search_item_img, .audio_page_player .audio_page_player_play .icon, .fans_fan_bl_wrap, .fans_fan_bl, .public_help_steps_module .public_help_step_image, .post_field_user_image, .nim-peer .nim-peer--photo .im_grid > img, .nim-peer .nim-peer--photo > img {
+.mail_box_single_ava .mail_box_single_ava_img, .friends_photo_img, .ui_zoom_inner, .post_img, .people_cell_img, .cell_img, .page_list_module .thumb, img.fc_contact_photo, .fans_idolph_wrap, .group_row_photo, .group_row_img, .right_list_img, .ow_ava, .top_notify_cont .feedback_img, .feedback_sticky_icon, .feedback_group_photo_img, .feedback_img, .fans_fan_img, .nim-peer .nim-peer--photo-w, .wall_module .reply_img, .feed_friend_image, .top_profile_img, .copy_post_img, .like_tt_image, .poll_tt_image, .mv_author_img, .olist_item_photo, .chat_tab_img, .mention_tt_img, .profile_career_img, .mention_tt_person_img, .page_group_image, .blog_about_link_pic, img.im_chatbox_mem_photo, .im-member-item .im-member-item--photo, .chat_tab_counter, .chat_tab_close, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread, .ui_ownblock_img, .bp_img, .dev_top_profile_link img, .group_box_image_wrap, .group_box_image_link, .wk_poll_usr, .ui_rmenu_count, .blst_img, .feedback_sticky_img, a.fc_msgs_img, .tickets_image__i, .page_gif_play_icon, .page_gif_progress_icon, .search_item_img, .audio_page_player .audio_page_player_play .icon, .fans_fan_bl_wrap, .fans_fan_bl, .public_help_steps_module .public_help_step_image, .post_field_user_image, .nim-peer .nim-peer--photo .im_grid > img, .nim-peer .nim-peer--photo > img, a.group_app_button:after, .public_help_block:before, .friends_common_img, .page_friend_reply_ava {
     border-radius: 4px!important;
+}
+
+body.sf .left_count_wrap {
+    font-weight: 900
+}
+
+a.groups_messages_block:before {
+    background: url(https://i.imgur.com/58bQxow.png) no-repeat 0 -28px;
 }
 /* i luv old checkboxes <3 */
 
@@ -159,7 +167,7 @@ span.inl_bl.left_count:before {
 }
 /* header bg */
 
-#page_header_cont .back, #dev_top_nav_wrap {
+#page_header_cont .back, body:not(.dev_main_page) #dev_top_nav_wrap {
     background: linear-gradient(to bottom, #5D81A7 0%, #4C6C92 100%);
     box-shadow: inset 0 -1px 0 0 rgba(255, 255, 255, 0.18);
     border-bottom: 1px solid #456184;
@@ -283,4 +291,160 @@ input.text.ts_input, body.dev input.dev_top_input {
 
 .emoji_block_cont {
     position: relative;
+}
+
+
+
+/* buttons */
+.button_blue button, .flat_button:not(.secondary) {
+    box-shadow: inset 0px 1px 0px 0px #789ABF, inset 0px 0px 0px 1px #5980A9;
+    border: 1px solid #4e6f93;
+    border-top-color: #517295;
+    text-shadow: 0 1px 0 #45688E;
+    background-image: linear-gradient(to bottom, #6a8db2, #50769e);
+}
+
+.flat_button.secondary, .flat_button.secondary_dark {
+    box-shadow: 0 0 0 0;
+    border: 1px solid rgba(78, 111, 147, 0.27)!important;
+    border-top-color: rgba(81, 114, 149, 0.11)!important;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.67)!important;
+    background-image: linear-gradient(to bottom, #fbfbfb, #efefef)!important;
+}
+
+
+.page_actions_cont.narrow .page_actions_header, .page_actions_cont.narrow .page_extra_actions_btn {
+	background: url(/images/icons/profile_dots.png?1) no-repeat 8px 12px, linear-gradient(to bottom, #fbfbfb, #efefef)!important;
+    background-repeat: no-repeat;
+}
+
+/* covers */
+.page_cover_info {
+    position: absolute;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(21, 21, 21, 0.37));
+    color: white;
+        width: 765px;
+}
+
+.page_cover_info h2, .page_cover_info .no_current_info {
+    color: white;
+}
+
+.page_cover {
+    border-radius: 2px;
+}
+
+.page_cover_info .page_verified {
+    background: url(https://vk.com/images/icons/verify_white.png) no-repeat 0;
+}
+
+.page_cover_info .page_top {
+    text-shadow: -1px 0px 5px black;
+}
+
+/* URL previews */
+.wall_text .page_media_thumbed_link:last-child {
+    margin-bottom: 15px;
+}
+
+.wall_text .page_media_thumbed_link {
+    position: relative;
+}
+
+.wall_text .page_media_thumbed_link_big div.page_media_link_desc_wrap {
+	background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(21, 21, 21, 0.37));
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+.wall_text .page_media_thumbed_link_big .page_media_link_url {
+    color: white;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 4px 6px;
+    border-radius: 2px;
+    position: absolute;
+    top: -15px;
+}
+
+.wall_text .page_media_thumbed_link, .page_media_link_img_wrap {
+    border: 0!important;
+    outline: 0!important;
+}
+
+.wall_text div.page_media_link_title a {
+    text-shadow: -1px 0px 5px black;
+}
+
+.wall_module td.page_media_stickers_link_thumb, .wall_module td.page_media_link_thumb {
+	background-size: 170px!important;
+}
+
+/* Only icons on scroll */
+.left_count_wrap {
+    transition: none!important;
+}
+
+#side_bar_inner[style*="position: relative; margin-top: 42px;"] .left_count_wrap {
+    transition: background-color 200ms linear, color 200ms linear!important;
+}
+
+
+#side_bar_inner:not([style*="position: relative; margin-top: 42px;"]) .left_label {
+        text-indent: -9999px!important;
+}
+
+#side_bar_inner:not([style*="position: relative; margin-top: 42px;"]) .left_count_wrap, #side_bar_inner:not([style*="position: relative; margin-top: 42px;"]) .left_row:hover .left_count_wrap {
+    color: #5b6e85!important;
+    background: transparent!important;
+    position: relative!important;
+    top: 5px!important;
+    padding: 0!important;
+    left: -50px!important;
+    margin: 0!important;
+    opacity: 0.7!important;
+    width: 40px;
+    text-align: right;
+}
+
+#side_bar_inner:not([style*="position: relative; margin-top: 42px;"]) .left_icon {
+    position: absolute;
+}
+
+#side_bar_inner:not([style*="position: relative; margin-top: 42px;"]) {
+    width: 44px!important;
+    margin-left: 135px!important;
+    bottom: 0!important;
+    top: 0!important;
+    position: fixed!important;
+    margin-top: 42px!important;
+}
+
+#side_bar_inner:not([style*="position: relative; margin-top: 42px;"]) .left_menu_nav_wrap, #side_bar_inner:not([style*="position: relative; margin-top: 42px;"]) .more_div,
+
+#side_bar_inner:not([style*="position: relative; margin-top: 42px;"]) li:not(#l_nwsf):not(#l_msg)/*:not(#l_fr)*/ {
+    display: none!important
+}
+
+#side_bar_inner:not([style*="position: relative; margin-top: 42px;"]) .left_row:hover {
+    background: transparent;
+}
+
+#page_body {
+    position: relative;
+        z-index: 10;
+}
+
+#side_bar_inner:not([style*="position: relative; margin-top: 42px;"]) .quick_login {
+    width: 149px;
+    margin-left: -133px;
+}
+
+img[src="https://pp.vk.me/c837324/v837324482/c99b/i2q0pvh5P1A.jpg"], img[src="https://pp.vk.me/c837324/v837324482/c99a/9zE3GInHV1E.jpg"] {
+    display: none
+}
+
+.index_page #page_body {
+    position: static;
 }
