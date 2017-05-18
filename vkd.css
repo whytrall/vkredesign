@@ -1,6 +1,51 @@
+body {
+    font-family: 'SF UI Display';
+}
+
+#side_bar .left_label {
+    letter-spacing: 0.3px;
+}
+
+.post_full_like {
+    display: inline-flex;
+}
+
+.post_full_like_wrap .post_like {
+    order: 1;
+}
+
+.post_full_like_wrap .post_share {
+    order: 2
+}
+
+.post_full_like_wrap .post_reply {
+    order: 3;
+}
+
+.post_reply_link {
+    display: none;
+}
+
+.post_like_link {
+    text-transform: lowercase;
+}
+
+.post_like_link:before {
+    content: 'Мне ';
+    text-transform: capitalize;
+}
+
+.post_share_link {
+    display: block!important;
+}
+
+.post_full_like .ui_actions_menu_wrap {
+    order: 4;
+}
+
 /* rounded images: avatars, etc */
 
-.mail_box_single_ava .mail_box_single_ava_img, .friends_photo_img, .ui_zoom_inner, .post_img, .people_cell_img, .cell_img, .page_list_module .thumb, img.fc_contact_photo, .fans_idolph_wrap, .group_row_photo, .group_row_img, .right_list_img, .ow_ava, .top_notify_cont .feedback_img, .feedback_sticky_icon, .feedback_group_photo_img, .feedback_img, .fans_fan_img, .nim-peer .nim-peer--photo-w, .wall_module .reply_img, .feed_friend_image, .top_profile_img, .copy_post_img, .like_tt_image, .poll_tt_image, .mv_author_img, .olist_item_photo, .chat_tab_img, .mention_tt_img, .profile_career_img, .mention_tt_person_img, .page_group_image, .blog_about_link_pic, img.im_chatbox_mem_photo, .im-member-item .im-member-item--photo, .chat_tab_counter, .chat_tab_close, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread, .ui_ownblock_img, .bp_img, .dev_top_profile_link img, .group_box_image_wrap, .group_box_image_link, .wk_poll_usr, .ui_rmenu_count, .blst_img, .feedback_sticky_img, a.fc_msgs_img, .tickets_image__i, .page_gif_play_icon, .page_gif_progress_icon, .search_item_img, .audio_page_player .audio_page_player_play .icon, .fans_fan_bl_wrap, .fans_fan_bl, .public_help_steps_module .public_help_step_image, .post_field_user_image, .nim-peer .nim-peer--photo .im_grid > img, .nim-peer .nim-peer--photo > img, a.group_app_button:after, .public_help_block:before, .friends_common_img, .page_friend_reply_ava {
+.mail_box_single_ava .mail_box_single_ava_img, .friends_photo_img, .ui_zoom_inner, .post_img, .people_cell_img, .cell_img, .page_list_module .thumb, img.fc_contact_photo, .fans_idolph_wrap, .group_row_photo, .group_row_img, .right_list_img, .ow_ava, .top_notify_cont .feedback_img, .feedback_sticky_icon, .feedback_group_photo_img, .feedback_img, .fans_fan_img, .nim-peer .nim-peer--photo-w, .wall_module .reply_img, .feed_friend_image, .top_profile_img, .copy_post_img, .like_tt_image, .poll_tt_image, .mv_author_img, .olist_item_photo, .chat_tab_img, .mention_tt_img, .profile_career_img, .mention_tt_person_img, .page_group_image, .blog_about_link_pic, img.im_chatbox_mem_photo, .im-member-item .im-member-item--photo, .chat_tab_counter, .chat_tab_close, .nim-dialog.nim-dialog_unread .nim-dialog--unread, .nim-dialog.nim-dialog_unread.nim-dialog_prep-injected .nim-dialog--unread, .ui_ownblock_img, .bp_img, .dev_top_profile_link img, .group_box_image_wrap, .group_box_image_link, .wk_poll_usr, .ui_rmenu_count, .blst_img, .feedback_sticky_img, a.fc_msgs_img, .tickets_image__i, .page_gif_play_icon, .page_gif_progress_icon, .search_item_img, .audio_page_player .audio_page_player_play .icon, .fans_fan_bl_wrap, .fans_fan_bl, .public_help_steps_module .public_help_step_image, .post_field_user_image, .nim-peer .nim-peer--photo .im_grid > img, .nim-peer .nim-peer--photo > img, a.group_app_button:after, .public_help_block:before, .friends_common_img, .page_friend_reply_ava, .mv_author_photo {
     border-radius: 4px!important;
 }
 
@@ -142,7 +187,7 @@ span.inl_bl.left_count:before {
     content: '+';
 }
 /* make top logo great again! */
-/* small and cool play buttons */
+/* small and cool play buttons 
 
 .audio_play {
     border-radius: 3px;
@@ -150,12 +195,12 @@ span.inl_bl.left_count:before {
     height: 22px;
     background: #577ca1 url(https://vk.com/images/icons/audio_playpause.png) no-repeat 7px 6px;
 }
-/* pause button */
+/* pause button 
 
 .audio_play.playing, .audio_row_playing .audio_play {
     background-position: 7px -16px;
 }
-/* Fixes the position of track name and lyrics link */
+/* Fixes the position of track name and lyrics link 
 
 .audio_row .audio_info {
     padding-top: 4px;
@@ -310,11 +355,19 @@ input.text.ts_input, body.dev input.dev_top_input {
     border-top-color: rgba(81, 114, 149, 0.11)!important;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.67)!important;
     background-image: linear-gradient(to bottom, #fbfbfb, #efefef)!important;
+    color: #636363!important;
 }
 
+.flat_button .mv_add_icon, .flat_button .mv_share_icon, .flat_button .mv_edit_icon {
+    filter: grayscale(100%) brightness(90%)!important;
+}
+
+.mv_like_icon {
+        margin-left: 0;
+}
 
 .page_actions_cont.narrow .page_actions_header, .page_actions_cont.narrow .page_extra_actions_btn {
-	background: url(/images/icons/profile_dots.png?1) no-repeat 8px 12px, linear-gradient(to bottom, #fbfbfb, #efefef)!important;
+	background: url(https://vk.com/images/icons/profile_dots.png?1) no-repeat 8px 12px, linear-gradient(to bottom, #fbfbfb, #efefef)!important;
     background-repeat: no-repeat;
 }
 
@@ -336,7 +389,7 @@ input.text.ts_input, body.dev input.dev_top_input {
 }
 
 .page_cover_info .page_verified {
-    background: url(https://vk.com/images/icons/verify_white.png) no-repeat 0;
+    background: url(data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAQAAAD8x0bcAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QA/4ePzL8AAAAHdElNRQfhBRIOBAqtG3PzAAABiElEQVQoz22Rv08TYRjHP33b865NmqAcVsCBxIFRVxcIDDDC3+AMJg6MTsxGJEzOmkCYQXRgoAMloSkk7Nga4JrTtyEk17se7z0Mh9rTfr/T8+STb54fkFGtElfjaq3CQCl/0YTRWewnkkjsR2cm9BdRWcjWe7eStd7D7ktpL+jdSP5zonfbCyjIAcWgk7MHTyFR6SFdBTg3LUPW1a3qlsFw08IBBSuucrNI7fPcWikwGJS74gJYlzUtWrTsbO5satHy7RPPT9fTnpbLQ6wCTrdgAVAKZj5+7cH8u8arsWVzP1XXwoHy7HSr44knnhyvM8lk/UNaeeJJqzM7TblAuH8e6PwQwOhy4xYevzZ/tgv0/jlhDnC/X6gHg0+Q9CbG+ZkH7Gd+caj8VPjH8uPoYO1LI00qMsLowfvxl9mUi8OpN1zhp8eMaNOsb/di3QyuDYbgWjd7cX2bJm2i9C0ANhWe4LwY3liFpbcnvwjxUuQvpLBxyFPiEaAJMIREJP3Qb1k4QEjc37wDfGHwel/JuUAAAAAASUVORK5CYII=) no-repeat 0;
 }
 
 .page_cover_info .page_top {
@@ -441,10 +494,81 @@ input.text.ts_input, body.dev input.dev_top_input {
     margin-left: -133px;
 }
 
-img[src="https://pp.vk.me/c837324/v837324482/c99b/i2q0pvh5P1A.jpg"], img[src="https://pp.vk.me/c837324/v837324482/c99a/9zE3GInHV1E.jpg"] {
-    display: none
-}
 
 .index_page #page_body {
     position: static;
+}
+
+/* New player icons */
+
+.top_audio_player .top_audio_player_btn .top_audio_player_btn_icon {
+    width: 12px;
+    height: 15px;
+}
+
+.top_audio_player.top_audio_player_playing .top_audio_player_play .top_audio_player_btn_icon {
+        background-position: -17px -78px;
+}
+
+.top_audio_player .top_audio_player_prev .top_audio_player_btn_icon {
+    background-position: -32px -78px;
+    
+}
+
+.top_audio_player .top_audio_player_next .top_audio_player_btn_icon {
+        background-position: -48px -78px;
+}
+
+.top_audio_player .top_audio_player_play .top_audio_player_btn_icon {
+        background-position: 0px -78px;
+}
+
+.top_audio_player .top_audio_player_btn {
+    padding: 9px 5px;
+    margin-top: 4px;
+}
+
+
+/* New gradientful group info icons */
+
+.group_info_row:before {
+    display: block;
+    position: absolute;
+    content: '';
+    background: url(https://i.imgur.com/St18vKV.png) no-repeat 0 0;
+    opacity: 0.85;
+}
+
+.group_info_row.site:hover:before {
+    opacity: 1
+}
+/* Online indicator */
+.online:after {
+    bottom: -1px;
+    right: -1px;
+}
+.online.mobile:after {
+    bottom: -1px;
+    right: -2px;
+    border-radius: 3px 3px 0 0;
+}
+
+/* No icon on Interesting first */
+.ui_toggler_wrap.hot {
+    background: none;
+    border-left: 0;
+}
+
+.ui_toggler_wrap.hot .ui_toggler.on:before {
+	content: "Внимание! Включена ужасная умная лента. Нажмите сюда, чтобы отключить";
+    position: fixed;
+    background: #d64a4a;
+    top: 60px;
+       width: 290px;
+    color: white;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 3px;
+    left: 20px;
+    z-index: 10000;
 }
